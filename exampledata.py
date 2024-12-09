@@ -19,4 +19,4 @@ with pd.ExcelWriter('onewaydata.xlsx', engine='openpyxl') as writer:
 with pd.ExcelWriter('twowaydata.xlsx', engine='openpyxl') as writer:
     df2.to_excel(writer, sheet_name='Two-Way ANOVA', index=False)
 
-print("Excel file  has been successfully created.")
+print("Excel file has been successfully created.")
