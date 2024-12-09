@@ -1,10 +1,10 @@
 import pandas as pd
 data1 = {
-    'Metode': ['A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B', 'B', 'C', 'C', 'C', 'C', 'C'],
+    'Test': ['A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B', 'B', 'C', 'C', 'C', 'C', 'C'],
     'Score': [80, 85, 90, 78, 82, 88, 90, 85, 87, 91, 70, 72, 68, 75, 69]
 }
 data2 = {
-    'Metode': ['A', 'A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B', 'B', 'B', 'C', 'C', 'C', 'C', 'C', 'C'],
+    'Test': ['A', 'A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'B', 'B', 'B', 'C', 'C', 'C', 'C', 'C', 'C'],
     'Gender': ['Male', 'Male', 'Male', 'Female', 'Female', 'Female', 
                       'Male', 'Male', 'Male', 'Female', 'Female', 'Female', 
                       'Male', 'Male', 'Male', 'Female', 'Female', 'Female'],
